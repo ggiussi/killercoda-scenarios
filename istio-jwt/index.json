@@ -1,6 +1,6 @@
 {
-  "title": "Playground",
-  "description": "This playground has Istio installed on Kubernetes",
+  "title": "Istio with JWT",
+  "description": "Istio Auth with JWT",
   "details": {
       "steps": [
       {
