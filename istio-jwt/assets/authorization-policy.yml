@@ -12,3 +12,7 @@ spec:
   - from:
     - source:
        requestPrincipals: ["testing@secure.istio.io/testing@secure.istio.io"]
+    when:
+    - key: request.auth.claims[scopes]
+      values: ["scopeA"]
+      
