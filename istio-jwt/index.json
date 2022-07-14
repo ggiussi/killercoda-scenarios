@@ -1,6 +1,6 @@
 {
-  "title": "Samples Helloworld",
-  "description": "Run the Istio Helloworld sample",
+  "title": "Istio with JWT",
+  "description": "Run the Istio Helloworld sample and add auth policies based on JWT",
   "details": {
       "steps": [
       {
