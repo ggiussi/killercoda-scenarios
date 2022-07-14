@@ -1,0 +1,11 @@
+apiVersion: security.istio.io/v1beta1
+kind: RequestAuthentication
+metadata:
+  name: helloworld
+  namespace: default
+spec:
+  selector:
+    matchLabels:
+      app: helloworld
+  jwtRules:
+  - issuer: "killercoda"
