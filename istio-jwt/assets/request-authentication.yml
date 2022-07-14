@@ -8,4 +8,5 @@ spec:
     matchLabels:
       app: helloworld
   jwtRules:
-  - issuer: "killercoda"
+  - issuer: "testing@secure.istio.io"
+    jwksUri: "https://raw.githubusercontent.com/istio/istio/release-1.14/security/tools/jwt/samples/jwks.json"
